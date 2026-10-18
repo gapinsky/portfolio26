@@ -1,7 +1,7 @@
+import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import {
   Card,
-  CardAction,
   CardDescription,
   CardFooter,
   CardHeader,
@@ -10,8 +10,9 @@ import {
 import { Project } from "@/public/data/data"
 import Link from "next/link"
 import Image from "next/image"
+import { getProjectSlug } from "@/lib/projects"
 
-export function ProjectCard({name, thumbnail, description}: Project) {
+export function ProjectCard({name, thumbnail, description, githubUrl, category}: Project) {
   return (
     <Card className="relative mx-auto w-full max-w-full pt-0">
       <div aria-hidden="true" className="pointer-events-none absolute inset-0 z-30 aspect-video " />
@@ -26,16 +27,16 @@ export function ProjectCard({name, thumbnail, description}: Project) {
         className="relative z-20 aspect-video w-full object-cover p-1 rounded-t-xl"
       />
       <CardHeader className="h-full">
-        <CardAction>
-          {/* <Badge variant="secondary">Featured</Badge> */}
-        </CardAction>
+        <Badge variant={category === "commercial" ? "default" : "secondary"} className={`mb-1 w-fit ${category === "commercial" ? "bg-zinc-500 text-white" : ""}`}>
+          {category === "commercial" ? "Commercial" : "Practice"}
+        </Badge>
         <CardTitle>{name}</CardTitle>
         <CardDescription className="line-clamp-3">
           {description}
         </CardDescription>
       </CardHeader>
       <CardFooter>
-            <Button className="w-full" nativeButton={false} render={<Link href="/#projects" />}>
+            <Button className="w-full" nativeButton={false} render={<Link href={`/projects/${getProjectSlug({ githubUrl })}`} />}>
                View project details
             </Button>
       </CardFooter>

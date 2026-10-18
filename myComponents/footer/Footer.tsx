@@ -1,4 +1,3 @@
-import { ArrowUpRight } from "lucide-react";
 import { contact } from "@/public/data/contact";
 import Wrapper from "../wrapper/Wrapper";
 

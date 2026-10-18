@@ -35,9 +35,13 @@ export default function Navigation() {
               {label}
             </Link>
           ))}
-          <Link key={"Resume"} href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="inline-flex min-h-11 items-center rounded-sm text-sm text-muted-foreground underline-offset-4 transition-colors hover:text-foreground hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-900 focus-visible:ring-offset-4">
+          <a
+            href="/pdf/Antoni_Gapinski_Software_Developer_CV.pdf"
+            download="Antoni_Gapinski_Software_Developer_CV.pdf"
+            className="inline-flex min-h-11 items-center justify-center rounded-full bg-zinc-900 px-5 py-2 text-sm font-medium text-zinc-100 transition-colors hover:bg-zinc-700 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-zinc-900"
+          >
             Resume
-          </Link>
+          </a>
         </Menubar>
       </nav>
     </header>

@@ -28,12 +28,13 @@ export default function Hero() {
           Hi, I&apos;m Antoni.
         </h1>
         <p className="mt-6 text-2xl font-medium tracking-tight  sm:mt-8 sm:text-4xl text-zinc-800">
-          I build modern web applications.
+          I turn complex problems into digital solutions.
         </p>
         <p className="mt-6 max-w-2xl text-base leading-relaxed  sm:text-xl text-zinc-800">
-          Frontend-focused developer working with React, Next.js and TypeScript. I
-          turn ideas into functional, thoughtfully designed digital products — from
-          commercial websites to full-stack applications.
+          Software developer specializing in React, Next.js and TypeScript,
+          expanding into full-stack development. I take ideas from concept to
+          production - combining business understanding, thoughtful design and
+          technical problem-solving to build products that deliver real value.
         </p>
 
         <div className="mt-7 flex flex-wrap items-center gap-3">

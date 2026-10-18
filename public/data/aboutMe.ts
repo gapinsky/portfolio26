@@ -9,6 +9,7 @@ export const aboutMe = {
     "My background is primarily in front-end development, with a strong focus on React, Next.js, and TypeScript. I'm currently expanding into full-stack development, working with Node.js, PostgreSQL, and backend architecture to build complete applications from the ground up.",
     "What drives me most is solving challenging problems. I'm particularly interested in algorithms, optimization, and system design - understanding not just how to make something work, but how to make it work better. I enjoy breaking down complex problems, exploring different approaches, and finding efficient, well-structured solutions.",
     "I'm independent, resourceful, and not easily discouraged by unfamiliar technologies or difficult tasks. If I don't know how to do something yet, I'll figure it out. I take ownership of my work, pay attention to details, and constantly push myself beyond what I already know.",
+    "My experience goes beyond writing code. I've worked directly with clients to understand their business needs, translate requirements into UI/UX designs in Figma, and deliver complete web applications. This has taught me to approach development from both a technical and product perspective - considering not only how a system should be built, but why it should work a certain way."
   ],
   stack: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Git", "Node.js", "Figma"],
   skills: [
@@ -23,7 +24,7 @@ export const aboutMe = {
   "System Administration",
 ],
   softSkills: [
-  "English — B2",
+  "English - B2",
   "Customer Communication",
   "Abstract Thinking",
   "Problem Solving",

@@ -4,7 +4,7 @@ import { ProjectCard } from "./ProjectCard"
 import { projects } from "@/public/data/data"
 const Projects = () => {
   return (
-    <section>
+    <section id="projects" className="scroll-mt-32">
         <Wrapper>
            <SectionTitle>Featured Projects</SectionTitle> 
            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">

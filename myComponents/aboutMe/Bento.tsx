@@ -28,7 +28,7 @@ export default function Bento({
         className,
       )}
     >
-      <div className="relative min-w-0 overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-200 aspect-[4/5] sm:aspect-auto sm:min-h-80 [&>img]:h-full [&>img]:w-full [&>img]:object-cover">
+      <div className="relative min-w-0 overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-200 aspect-4/5 sm:aspect-auto sm:min-h-80 [&>img]:h-full [&>img]:w-full [&>img]:object-cover">
         {photo}
       </div>
 
@@ -36,7 +36,7 @@ export default function Bento({
         <h3 className="mb-4 text-xl font-semibold tracking-tight sm:text-2xl">
           About me
         </h3>
-        <div className="space-y-4 text-base leading-relaxed text-zinc-600 [overflow-wrap:anywhere]">
+        <div className="space-y-4 text-base leading-relaxed text-zinc-600 wrap-anywhere">
           {about}
         </div>
       </div>
@@ -45,7 +45,7 @@ export default function Bento({
         <h3 className="mb-4 text-xl font-semibold tracking-tight sm:text-2xl">
           Stack
         </h3>
-        <div className="flex flex-wrap gap-2 text-sm leading-relaxed text-zinc-600 [overflow-wrap:anywhere] [&>*]:min-w-0 [&>*]:max-w-full">
+        <div className="flex flex-wrap gap-2 text-sm leading-relaxed text-zinc-600 wrap-anywhere *:min-w-0 *:max-w-full">
           {stack}
         </div>
       </div>
@@ -54,7 +54,7 @@ export default function Bento({
         <h3 className="mb-4 text-xl font-semibold tracking-tight sm:text-2xl">
           Skills
         </h3>
-        <div className="space-y-3 text-base leading-relaxed text-zinc-600 [overflow-wrap:anywhere]">
+        <div className="space-y-3 text-base leading-relaxed text-zinc-600 wrap:anywhere">
           {skills}
         </div>
       </div>
@@ -63,7 +63,7 @@ export default function Bento({
         <h3 className="mb-4 text-xl font-semibold tracking-tight sm:text-2xl">
           Soft skills
         </h3>
-        <div className="space-y-3 text-base leading-relaxed text-zinc-600 [overflow-wrap:anywhere]">
+        <div className="space-y-3 text-base leading-relaxed text-zinc-600 wrap:anywhere">
           {softSkills}
         </div>
       </div>

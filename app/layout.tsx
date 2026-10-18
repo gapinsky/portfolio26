@@ -17,6 +17,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  icons: {
+    icon: { url: "/icons/portofioIcon.png", type: "image/png" },
+  },
   title: "Antoni Gapiński - Portfolio",
   description: "Antoni Gapiński's personal portfolio website showcasing my work, skills, and projects.",
 };
