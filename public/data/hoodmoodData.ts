@@ -294,13 +294,13 @@ export const projects: Project[] = [
         type: "image",
       },
       {
-        src: "/projects/hoodmood/lighthouse-desktop.png",
+        src: "/projects/hoodmood/lighthouse-report-desktop.png",
         alt: "Desktop Lighthouse report: Performance 100, Accessibility 96, Best Practices 100, SEO 100",
         caption: "Desktop · Lighthouse audit · 18 October 2026",
         type: "image",
       },
       {
-        src: "/projects/hoodmood/lighthouse-mobile.png",
+        src: "/projects/hoodmood/lighthouse-report-mobile.png",
         alt: "Mobile Lighthouse report: Performance 98, Accessibility 96, Best Practices 100, SEO 100",
         caption: "Mobile · Lighthouse audit · 18 October 2026",
         type: "image",

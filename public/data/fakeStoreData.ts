@@ -77,13 +77,6 @@ export const projects: ProjectDetail[] = [
         "A small exercise in routing, fetching data and sharing state through context.",
     },
 
-    media: [
-      {
-        src: "/img/ecommerce.webp",
-        alt: "Fake Store homepage",
-        caption: "Storefront",
-        type: "image",
-      },
-    ],
+    media: [],
   },
 ];

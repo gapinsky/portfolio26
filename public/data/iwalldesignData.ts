@@ -99,13 +99,6 @@ export const projects: ProjectDetail[] = [
         "This one went beyond a brochure site. The visualiser meant working with canvas and pointer events, and the form meant handling uploads and validating on the server.",
     },
 
-    media: [
-      {
-        src: "/img/iwalldesign.png",
-        alt: "iWallDesign website homepage",
-        caption: "Homepage",
-        type: "image",
-      },
-    ],
+    media: [],
   },
 ];

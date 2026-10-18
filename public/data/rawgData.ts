@@ -101,13 +101,6 @@ export const projects: ProjectDetail[] = [
         "This is where I got used to TanStack Query and to keeping server data and local state apart. It is a practice project, not a product.",
     },
 
-    media: [
-      {
-        src: "/img/rawg.webp",
-        alt: "RAWG inspired game browser",
-        caption: "Game browser",
-        type: "image",
-      },
-    ],
+    media: [],
   },
 ];

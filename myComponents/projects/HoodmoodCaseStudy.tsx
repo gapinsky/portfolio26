@@ -80,10 +80,10 @@ export default function HoodmoodCaseStudy() {
         </div>
         <p className="mt-4 text-sm text-zinc-500">Lighthouse snapshots from 18 October 2026. Scores reflect these individual test runs and may vary with test conditions.</p>
         <div className="mt-8 space-y-8">
-          {hoodmood.media.slice(1).map((media) => (
+          {hoodmood.media.filter((media) => media.src.includes("lighthouse")).map((media) => (
             <figure key={media.src}>
               <a href={media.src} target="_blank" rel="noopener noreferrer" className="block rounded-xl focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-zinc-900" aria-label={`${media.caption} - open full-size screenshot in a new tab`}>
-                <Image src={media.src} alt={media.alt} width={3600} height={2338} sizes="(min-width: 1280px) 1152px, 100vw" className="h-auto w-full rounded-xl border border-zinc-200" />
+                <Image src={media.src} alt={media.alt} width={2430} height={1575} sizes="(min-width: 1280px) 1152px, 100vw" className="h-auto w-full rounded-xl border border-zinc-200" />
               </a>
               <figcaption className="mt-3 text-sm text-zinc-500">{media.caption} · Click to view full size</figcaption>
             </figure>

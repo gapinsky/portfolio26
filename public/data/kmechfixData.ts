@@ -98,13 +98,6 @@ export const projects: ProjectDetail[] = [
         "A small project, but it has the parts a real client site needs: content, a form that works and a deployment.",
     },
 
-    media: [
-      {
-        src: "/img/kmtechfix.webp",
-        alt: "KMechFix website homepage",
-        caption: "Homepage",
-        type: "image",
-      },
-    ],
+    media: [],
   },
 ];

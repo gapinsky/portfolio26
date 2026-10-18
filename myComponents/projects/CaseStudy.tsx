@@ -37,8 +37,8 @@ export default function CaseStudy({ project }: { project: ProjectDetail }) {
 
       {project.media.length > 0 && (
       <section>
-        <h2 className={heading}>{project.slug === "ticket-system" ? "Design artefacts" : "Gallery"}</h2>
-        <p className={body}>{project.slug === "ticket-system" ? "Diagrams produced during the design phase. " : ""}Click an image to view it full size.</p>
+        <h2 className={heading}>Design artefacts</h2>
+        <p className={body}>Mockups and diagrams produced during the design phase. Click an image to view it full size.</p>
         <div className="mt-8 space-y-8">
           {project.media.map((media) => (
             <figure key={media.src}>

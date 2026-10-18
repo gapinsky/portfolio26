@@ -170,6 +170,12 @@ export const projects: ProjectDetail[] = [
 
     media: [
       {
+        src: `${diagrams}/ui-mockup-agent-queue.png`,
+        alt: "UI mockup of the agent queue: a table of waiting tickets and the algorithm's suggestion",
+        caption: "UI mockup (Figma), agent queue",
+        type: "image",
+      },
+      {
         src: `${diagrams}/architecture.png`,
         alt: "System architecture: Next.js frontend, Nginx, NestJS backend with the assignment library, and PostgreSQL",
         caption: "Architecture",
