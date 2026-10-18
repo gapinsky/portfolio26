@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import Navigation from "@/myComponents/navigation/Navigation";
+import Footer from "@/myComponents/footer/Footer";
 const inter = Inter({subsets:['latin'],variable:'--font-sans'});
 
 const geistSans = Geist({
@@ -28,7 +29,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body className="min-h-full flex flex-col">
         <Navigation />
-        {children}</body>
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
