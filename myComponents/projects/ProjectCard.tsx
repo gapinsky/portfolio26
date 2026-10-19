@@ -21,7 +21,7 @@ export function ProjectCard({name, thumbnail, description, githubUrl, category}:
         alt={name}
         width={400}
         height={225}
-        quality={100}
+        quality={75}
         priority
         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         className="relative z-20 aspect-video w-full object-cover p-1 rounded-t-xl"

@@ -55,7 +55,7 @@ async function ProjectContent({ params }: Props) {
           <div><dt className="text-zinc-500">Category</dt><dd className="mt-1">{projectCategories[project.category]}</dd></div>
           <div><dt className="text-zinc-500">Status</dt><dd className="mt-1 capitalize">{project.status.replaceAll("-", " ")}</dd></div>
         </dl>
-        <Image
+        <Image quality={75}
           src={project.thumbnail}
           alt={project.name}
           width={1200}

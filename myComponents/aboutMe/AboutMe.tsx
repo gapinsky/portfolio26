@@ -22,7 +22,7 @@ export default function AboutMe() {
         <SectionTitle id="about-heading">About me</SectionTitle>
         <Bento
           photo={
-            <Image
+            <Image quality={75}
               src={aboutMe.photo.src}
               alt={aboutMe.photo.alt}
               fill

@@ -43,7 +43,7 @@ export default function CaseStudy({ project }: { project: ProjectDetail }) {
           {project.media.map((media) => (
             <figure key={media.src}>
               <a href={media.src} target="_blank" rel="noopener noreferrer" className="block rounded-xl focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-zinc-900" aria-label={`${media.caption} - open full-size image in a new tab`}>
-                <Image src={media.src} alt={media.alt} width={3200} height={2000} sizes="(min-width: 1280px) 1152px, 100vw" className="h-auto w-full rounded-xl border border-zinc-200 bg-white" />
+                <Image quality={75} src={media.src} alt={media.alt} width={3200} height={2000} sizes="(min-width: 1280px) 1152px, 100vw" className="h-auto w-full rounded-xl border border-zinc-200 bg-white" />
               </a>
               <figcaption className="mt-3 text-sm text-zinc-500">{media.caption}</figcaption>
             </figure>
